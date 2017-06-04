@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>quadratic-graph</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+<div class="example-wrapper ">
+  
+  <div id="graph" style="background-color:white; margin:20px 0px;"></div>
+
+  <div id="sliderWrapper">
+    <div id="slider"></div>
+  </div>
+</div>
+<script type="text/javascript" src='js/d3.js'></script>
+<script type="text/javascript" src='js/function-plot.js'></script>
+<script>
+var options = {
+  target: '#graph',
+  data: [
+  { fn: 'x^2' },
+  { fn: 'x * x * x * x' }, 
+  { fn: 'x^2 + x + 1' },
+  { fn: '-x^2' }
+  ]
+};
+functionPlot(options)
+</script>
+</body>
+</html>
