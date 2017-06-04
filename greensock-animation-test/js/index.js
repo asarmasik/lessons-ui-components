@@ -74,7 +74,6 @@ function createMasterTimeline() {
 }  
 
 // *** config buttons *** 
-
 $learnMore.mouseenter(function(e){
   TweenMax.fromTo($learnMore, 0.2, {boxShadow:"0px 0px 0px 0px #d0487d"}, {boxShadow:"0px 0px 20px 2px #d0487d", repeat:-1, yoyo:true});
 });
@@ -96,7 +95,6 @@ $replay.click(function(){
 });
 
 // *** config jQueryUI Slider ***
-
 $slider.slider({
   range: false,
   min: 0,
