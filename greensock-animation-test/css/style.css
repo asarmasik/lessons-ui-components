@@ -137,6 +137,7 @@ h4{
   width:280px; 
   margin-top:80px; 
   margin-left:10px;
+  background-color: #FFFFFF;
 }
 
 a:link{
@@ -152,4 +153,5 @@ a:link{
   margin-left: -20px !important; 
   height:40px !important; 
   margin-top:-10px !important;
+  background-color: #B3B3B3;
 }
